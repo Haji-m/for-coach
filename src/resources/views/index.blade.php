@@ -12,18 +12,20 @@
     </div>
     <div class="loading-shape--cover">
         <img id="shape2" src="{{asset('storage/web-illust.png')}}">
-        </div>
-        <div class="loading-text--cover">
-            <p class="loading-text--blink">now loading...</p>
-        </div>
     </div>
-    <main class="content-cover">
+    <div class="loading-text--cover">
+        <p class="loading-text--blink">now loading...</p>
+    </div>
+</div>
+<main class="content-cover">
+    <form action="{{route('exclusive')}}" method="get">
         <div class="content">
             <p class="content-explanation">お名前をひらがなで入力してください。</p>
-            <input class="content-form" type="text" placeholder="例：みつき" />
+            <input class="content-form" type="text" placeholder="例：みつき" name="search-text" />
         </div>
         <div class="button">
-            <button class="content-button">送信</button>
+            <button class="content-button" type="submit">送信</button>
         </div>
-    </main>
+    </form>
+</main>
 @endsection

@@ -15,3 +15,4 @@ use App\Http\Controllers\ThanksController;
 */
 
 Route::get('/', [ThanksController::class, 'index']);
+Route::get('/exclusive', [ThanksController::class, 'exclusive'])->name('exclusive');
