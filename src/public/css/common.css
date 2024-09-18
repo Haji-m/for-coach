@@ -1,0 +1,44 @@
+/*　以下、ページ全体の設定。　*/
+
+body {
+    width: auto;
+    text-align: center;
+    font-family: "Advent Pro Expanded";
+    font-weight: lighter;
+    background: #061F25;
+    margin: 0;
+}
+
+
+/* 以下、ヘッダー内の設定。 */
+
+.header-cover {
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80px;
+    width: auto;
+    color: #9FBEC6;
+    text-shadow: #DDF4FA 0 0 12px;
+    background: #0E2A31;
+    box-shadow: 0 4px 4px 0 #041B20;
+}
+
+#header {
+    margin-top: 0;
+}
+
+.header-icon {
+    height: 45px;
+    width: 70px;
+}
+
+.header-title {
+    font-size: 24px;
+    margin: 0 auto;
+    padding-right: 70px;
+}

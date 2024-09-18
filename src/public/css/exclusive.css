@@ -1,0 +1,265 @@
+/* 以下、ページタイトル設定。　*/
+
+.title1,
+.title2-text {
+    color: #FFF;
+    text-shadow: 0 0 10px #FFF;
+}
+
+.title1 {
+    font-size: 24px;
+    margin: 300px;
+}
+
+.title2-img {
+    height: 490px;
+    width: 690px;
+    margin-right: 150px;
+    filter: drop-shadow(0px 0 10px rgba(255, 234, 0, 0.759));
+}
+
+.title2-text--cover {
+    border-bottom: solid 1px #FFF;
+    margin-top: -250px;
+}
+
+.title2-text--cover,
+.title2-text-shadow--cover {
+    height: 255px;
+    display: flex;
+    justify-content: center;
+}
+
+.title2-text,
+.title2-text-shadow {
+    font-size: 120px;
+}
+
+#title2--left,
+#title2-shadow--left {
+    padding-right: 350px;
+}
+
+#title2--right,
+#title2-shadow--right {
+    padding-left: 350px;
+}
+
+.title2-text-shadow {
+    color: rgba(255, 255, 255, 0.4);
+    transform: scaleY(-1);
+}
+
+
+/* 以下、ページ内容設定。 */
+
+/* 以下、内容全体を囲む。 */
+
+.present {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* 以下、２項目の共通の設定。 */
+
+.present--content {
+    align-items: center;
+    color: #FFF;
+    background: #25535E;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 60px;
+    margin: 50px 0;
+}
+
+
+/* 以下、２項目の中心部分の空白。 */
+
+#message-cover {
+    margin-right: 25px;
+}
+
+#illust-cover {
+    margin-left: 25px;
+}
+
+
+/* 以下、２項目のタイトルまわりの設定。 */
+
+.present--title-cover {
+    width: 430px;
+    border-bottom: solid 1px #FFF;
+    margin: 0 auto;
+}
+
+.present--title {
+    font-size: 24px;
+}
+
+
+/* 以下、２項目のメッセージまわりの設定。 */
+
+.present--text-cover {
+    width: 425px;
+    margin: 0 auto;
+}
+
+.present--text {
+    font-size: 16px;
+    text-align: left;
+}
+
+#message-text {
+    margin-top: 35px;
+}
+
+/* 以下、イラストまわりの設定。 */
+
+.present--illust {
+    width: 350px;
+    border-radius: 30px;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+.present--img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+
+/* 以下、画像のダウンロードボタンの設定。 */
+
+.present--download-cover {
+    text-align: right;
+    margin: 10px 0 40px 0;
+}
+
+.present--download {
+    color: #72C9CF;
+}
+
+
+
+/* 以下、いいねのボタンまわりの設定。 */
+
+.thanks-cover {
+    width: 1150px;
+    background: #25535E;
+    border: none;
+    border-radius: 30px;
+    padding: 40px 0;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.thanks {
+    display: flex;
+    justify-content: center;
+}
+
+.thanks--text {
+    display: inline-block;
+    color: #FFF;
+}
+
+
+/* 以下、いいねのボタンカウントの設定。 */
+
+.thanks-button--count-num {
+    height: 20px;
+    width: 40px;
+    position: relative;
+    color: #25535E;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background: #FFF;
+}
+
+.thanks-button--count-num:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 5px;
+    margin-top: -7px;
+    border: 15px solid transparent;
+    border-top: 15px solid #FFF;
+}
+
+
+/* 以下、ハートの形の設定。 */
+
+.thanks-button-cover {
+    height: 40px;
+    width: 67px;
+    margin-left: 40px;
+}
+
+.thanks-button--shape {
+    height: 30px;
+    width: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.thanks-button--shape::before,
+.thanks-button--shape::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 30px;
+    width: 20px;
+    background: #FFF;
+    border-radius: 100px 100px 0 0;
+
+}
+
+.thanks-button--shape::before {
+    left: 20px;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+
+.thanks-button--shape::after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
+
+/* ボタンのホバー設定。*/
+.thanks-button--shape:hover::before,
+.thanks-button--shape:hover::after {
+    background: rgb(255, 182, 182);
+}
+
+/* ボタンを押した時の色設定。 */
+.thanks-button--shape:active::before,
+.thanks-button--shape:active::after {
+    background-color: rgb(255, 92, 92);
+}
+
+/* 以下、ボタンの設定。 */
+
+.button--cover {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    color: #FFF;
+    border: none;
+    background: #72C9CF;
+    border-radius: 30px;
+    box-shadow: 0 0 4px #ffffff;
+    margin: 100px 0;
+    padding: 10px 40px;
+}
+
+#top {
+    margin-right: 50px;
+}
+
+#other {
+    margin-left: 50px;
+}

@@ -1,0 +1,164 @@
+/* 以下、ローディングアニメーションの設定。 */
+
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    animation: fadeOut 0.5s 2.5s forwards;
+    background: #061F25;
+    padding-top: 200px;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.loading-shape--cover {
+    margin-bottom: 20px;
+}
+
+
+/* 以下、shape1の回転設定。 */
+
+#shape1 {
+    height: 80px;
+    width: 40px;
+    margin-left: 230px;
+    margin-bottom: -40px;
+    transform: rotate(-20deg);
+    animation: rotate1 1s linear infinite alternate;
+}
+
+@keyframes rotate1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-60deg);
+    }
+}
+
+
+/* 以下、shape2の伸縮の動きの設定。 */
+@keyframes poyopoyo {
+
+    0%,
+    40%,
+    60%,
+    80% {
+        transform: scale(1.0);
+    }
+
+    50%,
+    70% {
+        transform: scale(0.95);
+    }
+}
+
+#shape2 {
+    height: 180px;
+    width: 130px;
+    animation: poyopoyo 2s ease-out infinite;
+    opacity: 1;
+}
+
+
+.loading-text--cover {
+    margin-top: 80px;
+}
+
+/* 以下、文字の緩やかな点滅の設定。 */
+
+
+.loading-text--blink {
+    color: #FFFFFF;
+    opacity: 0;
+    animation: logo_fade 2s 0.5s forwards;
+    animation: blinking 1s ease-in-out infinite alternate;
+}
+
+@keyframes logo_fade {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes blinking {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* 以下、フォームの説明と入力欄の設定。 */
+
+.content-explanation {
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 180px;
+}
+
+.content-form {
+    height: 37px;
+    width: 430px;
+    font-size: 100%;
+    border-radius: 20px;
+    border: none;
+    background: #DDF4FA;
+    box-shadow: 0 0 10px 0 #FFFFFF;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+input:invalid {
+    background: #e37f7f;
+    border: none;
+}
+
+::placeholder {
+    font-size: 16px;
+    color: #9FBEC6;
+    padding-left: 20px;
+}
+
+
+/* 以下、送信ボタンの設定。 */
+
+.content-button {
+    height: 37px;
+    width: 80px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #72C9CF;
+    border-radius: 30px;
+    border: none;
+    margin-top: 100px;
+}
+
+.content-button:hover{
+background: #41a3aa;
+}

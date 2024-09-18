@@ -1,0 +1,40 @@
+/* 以下、他コーチへのコメントの設定。 */
+
+.content-name {
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.content-comment--cover {
+    display: flex;
+    justify-content: center;
+}
+
+.content-comment {
+    align-items: center;
+    color: #E3E3E3;
+    background: #25535E;
+    box-shadow: 0 0 10px 0 #25535E;
+    border: none;
+    border-radius: 20px;
+    padding: 35px 80px;
+}
+
+.content-comment--text {
+    line-height: 35px;
+}
+
+
+/* 以下、送信ボタンの設定。 */
+
+.content-button {
+    height: 35px;
+    width: 188px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #72C9CF;
+    border-radius: 30px;
+    border: none;
+    margin-top: 80px;
+}
