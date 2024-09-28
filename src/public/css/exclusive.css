@@ -51,7 +51,22 @@
 }
 
 
-/* 以下、ページ内容設定。 */
+/* title1のフェードインアニメーション。 */
+.title1--cover{
+    animation-name: fade-in;
+    animation-duration: 1s;
+}
+
+@keyframes fade-in {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
 
 /* 以下、内容全体を囲む。 */
 

@@ -6,7 +6,9 @@
 
 @section('content')
 <div class="title--cover">
-    <p class="title1">THANK YOU FOR...</p>
+    <div class="title1--cover">
+        <p class="title1">THANK YOU FOR...</p>
+    </div>
     <div class="title2--cover">
         <img class="title2-img" src="{{asset('storage/exclusive-page.png')}}">
         <div class="title2-text--cover">
@@ -14,7 +16,7 @@
             <p class="title2-text" id="title2--right">COACH</p>
         </div>
     </div>
-    <div class="title2--cover">
+    <div class="title2-shadow--cover">
         <div class="title2-text-shadow--cover">
             <p class="title2-text-shadow" id="title2-shadow--left">MY</p>
             <p class="title2-text-shadow" id="title2-shadow--right">COACH</p>
