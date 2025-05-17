@@ -53,7 +53,7 @@
                 <img class="present--img" src="{{asset('storage/illust.jpg')}}">
             </div>
             <div class="present--download-cover">
-                <a class="present--download" href="img/illust.jpg" download="コーチへ.png">画像をダウンロード</a>
+                <a class="present--download" href="{{asset('storage/illust.jpg')}}" download="コーチへ.png">画像をダウンロード</a>
             </div>
         </div>
         <div class="present--text-cover" id="illust-text">
