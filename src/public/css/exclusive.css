@@ -1,4 +1,4 @@
-/* 以下、ページタイトル設定。　*/
+/* 以下、ページタイトル設定。 */
 
 .title1,
 .title2-text {
@@ -8,7 +8,11 @@
 
 .title1 {
     font-size: 24px;
-    margin: 300px;
+    margin: 270px;
+}
+
+.title2--cover{
+    margin-top: 50px;
 }
 
 .title2-img {
@@ -66,7 +70,60 @@
     }
 }
 
+/* 時間経過で表示させる下矢印。 */
+.arrow-cover{
+    height: 70px;
+    width: 0 auto;
+    display: flex;
+    justify-content: center;
+}
 
+.arrow{
+    display: none; /* 最初は非表示。 */
+    width: 18px;
+    height: 18px;
+    border-style: solid;
+    border-width: 4px 4px 0 0;
+    border-color: #FFFFFF;
+    transform: rotate(45deg);
+    transform: rotate(135deg);
+    /* 以下、点滅アニメーション。 */
+    -webkit-animation: blink 1.0s ease-in-out infinite alternate;
+    -moz-animation: blink 1.0s ease-in-out infinite alternate;
+    animation: blink 1.0s ease-in-out infinite alternate;
+}
+
+/* 以下、サイトごと点滅アニメーション。 */
+@-webkit-keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.hidden{
+    display: none; /* スクロール時に適用するcssクラス。 */
+}
 
 /* 以下、内容全体を囲む。 */
 
@@ -277,4 +334,4 @@
 
 #other {
     margin-left: 50px;
-}
+} */

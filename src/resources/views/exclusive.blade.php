@@ -9,6 +9,9 @@
     <div class="title1--cover">
         <p class="title1">THANK YOU FOR...</p>
     </div>
+    <div class="arrow-cover">
+        <span class="arrow" id="scroll"></span>
+    </div>
     <div class="title2--cover">
         <img class="title2-img" src="{{asset('storage/exclusive-page.png')}}">
         <div class="title2-text--cover">
