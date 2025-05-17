@@ -5,8 +5,8 @@ HTML
 CSS
 
 **purpose**  
-I made this page for my mentor.
-He kept me motivated　for studying.
+I made this page for my mentor.  
+He kept me motivated　for studying.  
 So I wanted to return the favor for him using what I've learned.
 
 **figma link**  
