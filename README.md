@@ -7,7 +7,7 @@ CSS
 ## **purpose**  
 I made this page for my mentor.  
 He kept me motivated　for studying.  
-So I wanted to return the favor for him using what I've learned.
+So I wanted to express my gratitude for him using what I've learned.
 
 ## **figma link**  
 [https://www.figma.com/design/7MTWY2dakxZDBlHPCgk8xl/for-MITSUKI-COACH?node-id=123-92&t=in6YN9XQWX42jmlb-1
